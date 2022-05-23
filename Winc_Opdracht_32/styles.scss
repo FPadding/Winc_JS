@@ -1,0 +1,80 @@
+@import "./constants";
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+    position: absolute;
+    box-sizing: border-box;
+    width: $menuwidth;
+    left: -$menuwidth;
+    padding: 5px;
+    padding-top: $buttonsize;
+    top: 0;
+    margin: 0;
+    z-index: 0;
+    background-color: #ccc;
+    transition: 100ms;
+
+    li {
+        display: block;
+        width: 150px;
+        height: $menuitemheight;
+        margin-top: 5px;
+    }
+}
+
+.showmenu {
+    left: 0;
+}
+
+label {
+    display: block;
+    height: $menuitemheight;
+}
+
+.menubutton {
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    img {
+        width: $buttonsize;
+    }
+}
+
+.bigtext {
+    width: fit-content;
+    margin: 15px auto;
+    font-size: 30px;
+}
+
+.whitebg {
+    background-color: #fff;
+}
+
+.redbg {
+    background-color: red;
+}
+
+.orangebg {
+    background-color: orange;
+}
+
+.yellowbg {
+    background-color: yellow;
+}
+
+.greenbg {
+    background-color: green;
+}
+
+.bluebg {
+    background-color: blue;
+}
+
+.purplebg {
+    background-color: purple;
+}

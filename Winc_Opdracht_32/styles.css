@@ -1,0 +1,80 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  position: absolute;
+  box-sizing: border-box;
+  width: 160px;
+  left: -160px;
+  padding: 5px;
+  padding-top: 60px;
+  top: 0;
+  margin: 0;
+  z-index: 0;
+  background-color: #ccc;
+  transition: 100ms;
+}
+ul li {
+  display: block;
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.showmenu {
+  left: 0;
+}
+
+label {
+  display: block;
+  height: 25px;
+}
+
+.menubutton {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.menubutton img {
+  width: 60px;
+}
+
+.bigtext {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 15px auto;
+  font-size: 30px;
+}
+
+.whitebg {
+  background-color: #fff;
+}
+
+.redbg {
+  background-color: red;
+}
+
+.orangebg {
+  background-color: orange;
+}
+
+.yellowbg {
+  background-color: yellow;
+}
+
+.greenbg {
+  background-color: green;
+}
+
+.bluebg {
+  background-color: blue;
+}
+
+.purplebg {
+  background-color: purple;
+}/*# sourceMappingURL=styles.css.map */
