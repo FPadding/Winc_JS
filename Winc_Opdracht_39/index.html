@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Winc Movie Finder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer type="text/javascript" src="database.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Winc Film Finder</h1>
+    </header>
+    <nav>
+        <label for="nofilter">
+            <input type="radio" name="filter" id="nofilter" checked="true">All Movies
+        </label>
+        <label for="latest">
+            <input type="radio" name="filter" id="latest">Movies after 2014
+        </label>
+        <label for="avengers">
+            <input type="radio" name="filter" id="avengers">Avengers Movies
+        </label>
+        <label for="xmen">
+            <input type="radio" name="filter" id="xmen">X-Men Movies
+        </label>
+        <label for="princess">
+            <input type="radio" name="filter" id="princess">Princess Movies
+        </label>
+        <label for="batman">
+            <input type="radio" name="filter" id="batman">Batman Movies
+        </label>
+    </nav>
+    <main>
+        <ul id="movielist" class="grid"></ul>
+    </main>
+</body>
+
+</html>
